@@ -75,6 +75,10 @@
       .github-link {
         color: #333;
       }
+
+      .github {
+        margin-bottom: 5px;
+      }
     </style>
   </head>
   <body>
@@ -142,15 +146,22 @@
     <section class="solution">
       <h2>Solution</h2>
       <p>
-        To solve the problem of sentiment analysis, we will employ various
-        machine learning techniques such as natural language processing (NLP),
-        feature extraction, and classification algorithms. We will preprocess
-        the text data by removing noise, tokenizing the text, and converting it
-        into numerical representations. Then, we will train a machine learning
-        model using labeled data to classify the sentiment expressed in the text
-        into different categories. We will evaluate the performance of the model
-        using appropriate evaluation metrics and fine-tune it to improve
-        accuracy and generalization.
+        In addressing the sentiment analysis challenge, we will utilize
+        traditional machine learning techniques by first conducting thorough
+        preprocessing of the text data. This includes removing noise such as
+        HTML tags and punctuation, normalizing text to lowercase, and tokenizing
+        the text into individual words. Following this, we will employ the
+        TF-IDF (Term Frequency-Inverse Document Frequency) method for feature
+        extraction to transform textual data into a numerical format that can be
+        efficiently processed by machine learning models. For the classification
+        task, we will explore several algorithms including Support Vector
+        Machines (SVM), Random Forests, Artificial Neural Networks (ANN), and
+        Multinomial Logistic Regression. Each model will be trained on labeled
+        datasets to categorize sentiments into predefined classes. The
+        performance of these models will be evaluated using appropriate metrics
+        such as accuracy, precision, recall, and F1-score, enabling us to
+        fine-tune the models to achieve optimal results in accurately
+        classifying the sentiment expressed in the text data.
       </p>
     </section>
 
@@ -176,7 +187,6 @@
 
     <section>
       <h2>Project Video</h2>
-      <!-- Replace '#' with your video URL -->
       <video width="320" height="240" controls>
         <source src="#" type="video/mp4" />
         Your browser does not support the video.
